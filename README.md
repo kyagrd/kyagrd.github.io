@@ -8,7 +8,7 @@
 Ph.D. in [Computer Science](http://cs.pdx.edu/)
 at [Portland State University](http://www.pdx.edu/)
 (advised by [Tim Sheard](http://cs.pdx.edu/~sheard/))
-<br>
+<br />
 B.S. in [Computer Science](http://cs.kaist.ac.kr/)
 at [KAIST](http://www.kaist.ac.kr/).
 
@@ -23,5 +23,3 @@ See my [CV](https://github.com/kyagrd/cv/blob/master/kyagrd_tumblr_cv.pdf?raw=tr
 
 ### Publications
 See my [Google Scholar profile](http://scholar.google.com/citations?hl=en&user=n-GwE98AAAAJ).
-
-### SNS, Blog
