@@ -21,4 +21,4 @@ See my [Google Scholar profile](http://scholar.google.com/citations?hl=en&user=n
 
 ### SNS, Blog
 [![Tumblr](https://platform.tumblr.com/v1/share_1.png)](http://kyagrd.tumblr.com/)
-[![Facebook](http://kyagrd.github.io/images/FB_icon32.png)](http://facebook.com/kyagrd)
+[![Facebook](https://kyagrd.github.io/images/fb_icon32.png)](http://facebook.com/kyagrd)
