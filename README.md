@@ -21,6 +21,6 @@ See my [Google Scholar profile](http://scholar.google.com/citations?hl=en&user=n
 
 ### SNS, Blog
 [![Facebook](https://kyagrd.github.io/images/fb_icon32.png)](http://facebook.com/kyagrd)
-[![Twitter]](https://kyagrd.github.io/images/twitter_icon32.png)](https://twitter.com/kyagrd)
-[![Twitter]](https://kyagrd.github.io/images/linkedin_icon32.png)](https://linkedin.com/in/kyagrd)
+[![Twitter](https://kyagrd.github.io/images/twitter_icon32.png)](https://twitter.com/kyagrd)
+[![Twitter](https://kyagrd.github.io/images/linkedin_icon32.png)](https://linkedin.com/in/kyagrd)
 [![Tumblr]](https://kyagrd.github.io/images/tumblr_icon32.png)](http://kyagrd.tumblr.com/)
