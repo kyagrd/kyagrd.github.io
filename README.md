@@ -1,4 +1,4 @@
-![profie image](http://kyagrd.github.io/images/kya_face.jpg)<br />
+![profie image](http://kyagrd.github.io/images/kya_face.jpg)
 [![Facebook](https://kyagrd.github.io/images/fb_icon32.png)](http://facebook.com/kyagrd)
 [![Google+](https://kyagrd.github.io/images/gplus_icon32.png)](https://plus.google.com/+안기영)
 [![Twitter](https://kyagrd.github.io/images/twitter_icon32.png)](https://twitter.com/kyagrd)
