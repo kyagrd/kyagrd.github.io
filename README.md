@@ -15,8 +15,10 @@ type systems, automated testing (using solvers), formal verification, subtyping 
 and other aspects of functional languages.
 
 See my [CV](https://github.com/kyagrd/cv/blob/master/kyagrd_tumblr_cv.pdf?raw=true) for details.
-You can also follow [my blog on ![Tumblr](https://platform.tumblr.com/v1/share_1.png)](http://kyagrd.tumblr.com/)
 
-
-### Publications ###
+### Publications
 See my [Google Scholar profile](http://scholar.google.com/citations?hl=en&user=n-GwE98AAAAJ).
+
+### SNS, Blog
+[my blog on ![Tumblr](https://platform.tumblr.com/v1/share_1.png)](http://kyagrd.tumblr.com/)
+[![Facebook](http://upload.wikimedia.org/wikipedia/commons/3/3f/Facebook_icon.png)](http://facebook.com/kyagrd)
