@@ -7,7 +7,7 @@
 
 Ph.D. in [Computer Science](http://cs.pdx.edu/)
 at [Portland State University](http://www.pdx.edu/)
-(advised by [Tim Sheard](http://cs.pdx.edu/~sheard/))
+advised by [Tim Sheard](http://cs.pdx.edu/~sheard/).
 <br />
 B.S. in [Computer Science](http://cs.kaist.ac.kr/)
 at [KAIST](http://www.kaist.ac.kr/).
