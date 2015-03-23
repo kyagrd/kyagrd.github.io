@@ -7,7 +7,7 @@
 
 Ph.D. in [Computer Science](http://cs.pdx.edu/)
 at [Portland State University](http://www.pdx.edu/)
-advised by [Tim Sheard](http://cs.pdx.edu/~sheard/).
+(advisor: [Tim Sheard](http://cs.pdx.edu/~sheard/).
 <br />
 B.S. in [Computer Science](http://cs.kaist.ac.kr/)
 at [KAIST](http://www.kaist.ac.kr/).
@@ -22,4 +22,4 @@ and other aspects of functional languages.
 See my [CV](https://github.com/kyagrd/cv/blob/master/kyagrd_tumblr_cv.pdf?raw=true) for details.
 
 ### Publications
-See my [Google Scholar profile](http://scholar.google.com/citations?hl=en&user=n-GwE98AAAAJ).
+See [my Google Scholar profile](hhttp://scholar.google.com/citations?user=n-GwE98AAAAJ&view_op=list_works&sortby=pubdate).
