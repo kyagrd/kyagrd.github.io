@@ -22,4 +22,4 @@ and other aspects of functional languages.
 See my [CV](https://github.com/kyagrd/cv/blob/master/kyagrd_tumblr_cv.pdf?raw=true) for details.
 
 ### Publications
-See [my Google Scholar profile](http://scholar.google.com/citations?user=n-GwE98AAAAJ&view_op=list_works&sortby=pubdate).
+See my [Google Scholar profile](http://scholar.google.com/citations?user=n-GwE98AAAAJ&view_op=list_works&sortby=pubdate).
