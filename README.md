@@ -6,20 +6,30 @@
 [![Tumblr](https://kyagrd.github.io/images/tumblr_icon32.png)](http://kyagrd.tumblr.com/)
 
 Ph.D. in [Computer Science](http://cs.pdx.edu/)
-at [Portland State University](http://www.pdx.edu/)
+at [Portland State University](http://www.pdx.edu/), 2014
 (advisor: [Tim Sheard](http://cs.pdx.edu/~sheard/))
 <br />
-B.S. in [Computer Science](http://cs.kaist.ac.kr/)
-at [KAIST](http://www.kaist.ac.kr/).
+B.S. in [Computer Science](http://cs.kaist.ac.kr/),
+at [KAIST](http://www.kaist.ac.kr/), 2002
 
 My thesis research is about theories and language design for
 a logically consistent system that is convenient for both
 functional programming and logical reasoning, based on the Curry--Howard correspondence.
+
 My research interests, other than my thesis, are on programming languages:
 type systems, automated testing (using solvers), formal verification, subtyping for algebraic datatypes,
 and other aspects of functional languages.
+Further details are summarized in
+my [CV (or, resume)](https://github.com/kyagrd/cv/blob/master/kyagrd_tumblr_cv.pdf?raw=true).
+List of my publications are also available on
+my [Google Scholar profile](http://scholar.google.com/citations?user=n-GwE98AAAAJ&view_op=list_works&sortby=pubdate).
 
-See my [CV](https://github.com/kyagrd/cv/blob/master/kyagrd_tumblr_cv.pdf?raw=true) for details.
-
-### Publications
-See my [Google Scholar profile](http://scholar.google.com/citations?user=n-GwE98AAAAJ&view_op=list_works&sortby=pubdate).
+One of my favorate programming language is [Haskell](http://haskell.org/).
+I enjoy programming in Haskell.
+So, I've translated Graham Hutton's "Programming in Haskell" into Korean,
+first Korean print published in 2009. That is,
+<a title="Click to move to the Korean version hompage" href="https://kyagrd.github.io/haskell/">
+<img alt="한글판 표지" src="http://kyagrd.github.io/haskell/images/pihko_front_small.jpg" /></a> is
+a Korean translation of
+<a title="Click to move to the orignal English version homepage" href="http://cs.nott.ac.uk/~gmh/book.html">
+<img alt="원서 표지" src="http://kyagrd.github.io/haskell/images/pih_front_small.gif" /></a>. (You can click on the book cover image to go to their homepages.)
