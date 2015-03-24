@@ -27,9 +27,11 @@ my [Google Scholar profile](http://scholar.google.com/citations?user=n-GwE98AAAA
 One of my favorate programming language is [Haskell](http://haskell.org/).
 I enjoy programming in Haskell.
 So, I've translated Graham Hutton's "Programming in Haskell" into Korean,
-first Korean print published in 2009. That is, <br />
+first Korean print published in 2009.
+You can click on the book cover image to go to their homepages.
+
 <a title="Click to move to the Korean version hompage" href="https://kyagrd.github.io/haskell/">
 <img alt="한글판 표지" src="http://kyagrd.github.io/haskell/images/pihko_front_small.jpg" /></a> is
 a Korean translation of
 <a title="Click to move to the orignal English version homepage" href="http://cs.nott.ac.uk/~gmh/book.html">
-<img alt="원서 표지" src="http://kyagrd.github.io/haskell/images/pih_front_small.gif" /></a>. (You can click on the book cover image to go to their homepages.)
+<img alt="원서 표지" src="http://kyagrd.github.io/haskell/images/pih_front_small.gif" /></a>.
