@@ -24,7 +24,6 @@ List of my publications are also available on
 my [Google Scholar profile](http://scholar.google.com/citations?user=n-GwE98AAAAJ&view_op=list_works&sortby=pubdate).
 
 One of my favorate programming language is [Haskell](http://haskell.org/).
-I enjoy programming in Haskell.
 So, I've translated Graham Hutton's "Programming in Haskell" into Korean,
 first Korean print published in 2009.
 You can click on the book cover image to go to their homepages.
