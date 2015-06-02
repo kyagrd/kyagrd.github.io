@@ -6,11 +6,11 @@
 [![Tumblr](https://kyagrd.github.io/images/tumblr_icon32.png)](http://kyagrd.tumblr.com/)
 
 Ph.D. in [Computer Science](http://cs.pdx.edu/)
-at [Portland State University](http://www.pdx.edu/), 2014
+at [Portland State University](http://www.pdx.edu/), Dec, 2014
 (advisor: [Tim Sheard](http://cs.pdx.edu/~sheard/))
 <br />
 B.S. in [Computer Science](http://cs.kaist.ac.kr/),
-at [KAIST](http://www.kaist.ac.kr/), 2002
+at [KAIST](http://www.kaist.ac.kr/), Feb, 2002
 
 My thesis research is about theories and language design for
 a logically consistent system that is convenient for both
