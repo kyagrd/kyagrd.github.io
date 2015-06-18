@@ -18,7 +18,7 @@ My research interests, other than my thesis, are on programming languages:
 type systems, automated testing (using solvers), formal verification, subtyping for algebraic datatypes,
 and other aspects of functional languages.
 Further details are summarized in
-my [CV (or, resume)](https://github.com/kyagrd/cv/blob/master/kyagrd_tumblr_cv.pdf).
+my [CV (or, resume)](https://www.dropbox.com/s/t5l62rtlmsac6q1/kyagrd_tumblr_cv.pdf?dl=0).
 List of my publications are also available on
 my [Google Scholar profile](http://scholar.google.com/citations?user=n-GwE98AAAAJ&view_op=list_works&sortby=pubdate).
 
