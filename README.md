@@ -4,7 +4,7 @@
 [![Twitter](https://kyagrd.github.io/images/twitter_icon32.png)](https://twitter.com/kyagrd)
 [![LinkedIn](https://kyagrd.github.io/images/linkedin_icon32.png)](https://linkedin.com/in/kyagrd)
 [![Tumblr](https://kyagrd.github.io/images/tumblr_icon32.png)](http://kyagrd.tumblr.com/)
-[![ResearchGate](https://www.researchgate.net/favicon-32x32.png)](https://www.researchgate.net/profile/Ki_Yung_Ahn)
+[![ResearchGate](https://kyagrd.github.io/images/resgate_icon32.png)](https://www.researchgate.net/profile/Ki_Yung_Ahn)
 * Ph.D. in [Computer Science](http://cs.pdx.edu/)
   at [Portland State University](http://www.pdx.edu/), Dec, 2014
 (advisor: [Tim Sheard](http://cs.pdx.edu/~sheard/))
