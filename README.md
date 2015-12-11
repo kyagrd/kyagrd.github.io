@@ -13,18 +13,24 @@
 
 My primary reserach focus is currently on [the TIPER proejct](http://kyagrd.github.io/tiper/),
 which aims to designe and develope tool that automatically generates
-Type Inference Engines from Executable Relational specifcations of
-polymorphic type systems. This project will be combining theriteical
+Type Inference Prototyping Engines from Executable Relational specifcations
+of polymorphic type systems. This project will be combining theriteical
 and techincal advances in the Functional Programming
-and the Logic Programming communities altogether, in order to
-realize a missing peice of language frontend construction tool:
+and the Logic Programming communities, in order to
+realize a missing peice of language frontend construction toolset:
 we already have lexer/parser geneartors (e.g. Yacc) but missing
-static type system generators. See [the TIPER project hompage](http://kyagrd.github.io/tiper/)
-for further details.
+static type system generators.
+See [the TIPER project hompage](http://kyagrd.github.io/tiper/) for further details.
 
 My thesis research was about theories and language design for
 a logically consistent system that is convenient for both
 functional programming and logical reasoning, based on the Curry--Howard correspondence.
+In my thesis I designed a language called Nax, proved theoretic properteis about
+the language by studing its underlying calclulus (which is also my conribution).
+I've also implemted [a subset of Nax](https://github.com/kyagrd/mininax),
+which motivated the TIPER proejct mentioned previously because
+the added complexity makes it difficult to keep track of
+whether the implementation is faithful to the design written on paper.
 
 In addtion I am generally intereseted on programming languages related subjects:
 type systems, automated testing (using solvers), formal verification,
