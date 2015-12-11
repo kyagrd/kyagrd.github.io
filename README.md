@@ -12,7 +12,7 @@
   at [KAIST](http://www.kaist.ac.kr/), Feb, 2002
 
 My primary reserach focus is currently on [the TIPER proejct](http://kyagrd.github.io/tiper/),
-which aims to designe and develope tool that automatically generates
+which aims to designe and develope a tool that automatically generates
 Type Inference Prototyping Engines from Executable Relational specifcations
 of polymorphic type systems. This project will be combining theriteical
 and techincal advances in the Functional Programming
