@@ -4,6 +4,7 @@
 [![Twitter](http://kyagrd.github.io/images/twitter_icon32.png)](https://twitter.com/kyagrd)
 [![LinkedIn](http://kyagrd.github.io/images/linkedin_icon32.png)](https://linkedin.com/in/kyagrd)
 [![Tumblr](http://kyagrd.github.io/images/tumblr_icon32.png)](http://kyagrd.tumblr.com/)
+[![Google Scholar](http://media.mybrowseraddon.com/icons/google-scholar32.png)](https://scholar.google.com/citations?user=n-GwE98AAAAJ&view_op=list_works&sortby=pubdate)
 [![ResearchGate](http://kyagrd.github.io/images/resgate_icon32.png)](https://www.researchgate.net/profile/Ki_Yung_Ahn)
 [![GitHub](https://scan.coverity.com/assets/GitHub-Mark-32px-118dd57243de3bb50984e51a14f61522.png)](https://github.com/kyagrd/)
 [![Hackage](http://www.vectorlogo.zone/logos/haskell/haskell-icon.svg)](https://hackage.haskell.org/user/KiYungAhn)
