@@ -53,7 +53,7 @@ on my [ResearchGate profile](https://www.researchgate.net/profile/Ki_Yung_Ahn/pu
 my [Research Plan](https://www.dropbox.com/s/bgg2rs9dw3x6eol/kyagrd_tumblr_resplan.pdf).
 -->
 
-# Korean translation of "Programming in Haskell"
+# Korean ver. of "Programming in Haskell"
 One of my favorate programming language is [Haskell](http://haskell.org/).
 So, I've translated Graham Hutton's "Programming in Haskell" into Korean,
 first Korean print published in 2009.
