@@ -11,16 +11,28 @@
 * B.S. in [Computer Science](http://cs.kaist.ac.kr/),
   at [KAIST](http://www.kaist.ac.kr/), Feb, 2002
 
-My thesis research is about theories and language design for
+My primary reserach focus is currently on [the TIPER proejct](http://kyagrd.github.io/tiper/),
+which aims to designe and develope tool that automatically generates
+Type Inference Engines from Executable Relational specifcations of
+polymorphic type systems. This project will be combining theriteical
+and techincal advances in the Functional Programming
+and the Logic Programming communities altogether, in order to
+realize a missing peice of language frontend construction tool:
+we already have lexer/parser geneartors (e.g. Yacc) but missing
+static type system generators. See [the TIPER project hompage](http://kyagrd.github.io/tiper/)
+for further details.
+
+My thesis research was about theories and language design for
 a logically consistent system that is convenient for both
 functional programming and logical reasoning, based on the Curry--Howard correspondence.
 
-My research interests, other than my thesis, are on programming languages:
-type systems, automated testing (using solvers), formal verification, subtyping for algebraic datatypes,
-and other aspects of functional languages.
-Further details are summarized in
+In addtion I am generally intereseted on programming languages related subjects:
+type systems, automated testing (using solvers), formal verification,
+subtyping for algebraic datatypes, and other aspects of functional languages.
+
+Further details about me are summarized in
 my [CV (or, resume)](https://www.dropbox.com/s/t5l62rtlmsac6q1/kyagrd_tumblr_cv.pdf) and
-my [Research Plan](https://www.dropbox.com/s/bgg2rs9dw3x6eol/kyagrd_tumblr_resplan.pdf).
+<!-- my [Research Plan](https://www.dropbox.com/s/bgg2rs9dw3x6eol/kyagrd_tumblr_resplan.pdf). -->
 List of my publications are also available on
 my [Google Scholar profile](http://scholar.google.com/citations?user=n-GwE98AAAAJ&view_op=list_works&sortby=pubdate)
 and
