@@ -27,7 +27,7 @@ a logically consistent system that is convenient for both
 functional programming and logical reasoning, based on the Curry--Howard correspondence.
 In my thesis I designed a language called Nax, proved theoretic properteis about
 the language by studing its underlying calclulus (which is also my conribution).
-I've also implemted [a subset of Nax](https://github.com/kyagrd/mininax),
+I've also implemted [a subset of Nax](http://kyagrd.github.io/mininax),
 which motivated the TIPER proejct mentioned previously because
 the added complexity makes it difficult to keep track of
 whether the implementation is faithful to the design written on paper.
