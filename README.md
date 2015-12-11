@@ -6,7 +6,7 @@
 [![Tumblr](http://kyagrd.github.io/images/tumblr_icon32.png)](http://kyagrd.tumblr.com/)
 [![ResearchGate](http://kyagrd.github.io/images/resgate_icon32.png)](https://www.researchgate.net/profile/Ki_Yung_Ahn)
 [![Google Scholar](http://media.mybrowseraddon.com/icons/google-scholar32.png)](https://scholar.google.com/citations?user=n-GwE98AAAAJ)
-[![GitHub](https://scan.coverity.com/assets/GitHub-Mark-32px-118dd57243de3bb50984e51a14f61522.png)](https://github.com/kyagrd/)
+[![GitHub](https://scan.coverity.com/assets/GitHub-Mark-32px-118dd57243de3bb50984e51a14f61522.png)](https://github.com/kyagrd)
 [![Hackage](http://www.vectorlogo.zone/logos/haskell/haskell-icon.svg)](https://hackage.haskell.org/user/KiYungAhn)
 * Ph.D. in [Computer Science](http://cs.pdx.edu/)
   at [Portland State University](http://www.pdx.edu/), Dec, 2014
