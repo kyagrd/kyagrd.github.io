@@ -22,7 +22,7 @@ static type system generators.
 See [the TIPER project hompage](http://kyagrd.github.io/tiper/) for further details.
 
 
-# Nax
+# [Nax](http://kyagrd.github.io/mininax/)
 My thesis research was about theories and language design for
 a logically consistent system that is convenient for both
 functional programming and logical reasoning, based on the Curry--Howard correspondence.
@@ -35,7 +35,7 @@ whether the implementation is faithful to the design written on paper.
 
 
 # Other information
-In addtion I am generally intereseted on programming languages related subjects:
+In addtion, I am generally intereseted on programming languages related subjects:
 type systems, automated testing (using solvers), formal verification,
 subtyping for algebraic datatypes, and other aspects of functional languages.
 
@@ -52,13 +52,13 @@ my [Research Plan](https://www.dropbox.com/s/bgg2rs9dw3x6eol/kyagrd_tumblr_respl
 -->
 
 
-# Korean ver. of "Programming in Haskell"
+# [Korean ver. of "Programming in Haskell"](http://kyagrd.github.io/haskell/)
 One of my favorate programming language is [Haskell](http://haskell.org/).
 So, I've translated Graham Hutton's "Programming in Haskell" into Korean,
 first Korean print published in 2009.
 You can click on the book cover image to go to their homepages.
 
-<a title="Click to move to the Korean version hompage" href="https://kyagrd.github.io/haskell/">
+<a title="Click to move to the Korean version hompage" href="http://kyagrd.github.io/haskell/">
 <img alt="한글판 표지" src="http://kyagrd.github.io/haskell/images/pihko_front_small.jpg" /></a> is
 a Korean translation of
 <a title="Click to move to the orignal English version homepage" href="http://cs.nott.ac.uk/~gmh/book.html">
