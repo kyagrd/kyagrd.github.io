@@ -15,6 +15,7 @@
 * B.S. in [Computer Science](http://cs.kaist.ac.kr/),
   at [KAIST](http://www.kaist.ac.kr/), Feb, 2002
 
+
 # [TIPER](http://kyagrd.github.io/tiper/)
 My primary reserach focus is currently on [the TIPER proejct](http://kyagrd.github.io/tiper/),
 which aims to designe and develope a tool that automatically generates
@@ -27,6 +28,7 @@ we already have lexer/parser geneartors (e.g. Yacc) but missing
 static type system generators.
 See [the TIPER project hompage](http://kyagrd.github.io/tiper/) for further details.
 
+
 # Nax
 My thesis research was about theories and language design for
 a logically consistent system that is convenient for both
@@ -37,6 +39,7 @@ I've also implemted [a subset of Nax](http://kyagrd.github.io/mininax),
 which motivated the TIPER proejct mentioned previously because
 the added complexity makes it difficult to keep track of
 whether the implementation is faithful to the design written on paper.
+
 
 # Other information
 In addtion I am generally intereseted on programming languages related subjects:
@@ -54,6 +57,7 @@ on my [ResearchGate profile](https://www.researchgate.net/profile/Ki_Yung_Ahn/pu
 <!--
 my [Research Plan](https://www.dropbox.com/s/bgg2rs9dw3x6eol/kyagrd_tumblr_resplan.pdf).
 -->
+
 
 # Korean ver. of "Programming in Haskell"
 One of my favorate programming language is [Haskell](http://haskell.org/).
