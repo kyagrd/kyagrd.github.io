@@ -10,8 +10,16 @@ Full-time Lecturer (Office: Room 214, Humanities Building. 인문관 214호)<br/
 * B.S. in [Computer Science](http://cs.kaist.ac.kr/),
   at [KAIST](http://www.kaist.ac.kr/), Feb, 2002
 
+# Teaching
 
-# [TIPER](http://kyagrd.github.io/tiper/)
+## 2016 Spring Semester @ Korea University Sejong Campus
+* [EIEN233(02) 데이타구조 (Data Structures)](http://kyagrd.github.io/eien233ds/) 화(1-2) 25-전산실2 금(1) 9-211A
+* [EIEN363(03) 컴퓨터아키텍처 (Computer Architecture)](http://kyagrd.github.io/eien363ca/) 수(8) 7-109A 목(7-8) 7-109A
+* [EIEN215(02) 공업수학I (Engineering Mathematics I)](http://kyagrd.github.io/eien215em/) 화(5-6) 7-416 금(2) 9-210C
+
+# Research
+
+## [TIPER](http://kyagrd.github.io/tiper/)
 My primary reserach focus is currently on [the TIPER proejct](http://kyagrd.github.io/tiper/),
 which aims to designe and develope a tool that automatically generates
 Type Inference Prototyping Engines from Executable Relational specifcations
@@ -24,7 +32,7 @@ static type system generators.
 See [the TIPER project hompage](http://kyagrd.github.io/tiper/) for further details.
 
 
-# [Nax](http://kyagrd.github.io/mininax/)
+## [Nax](http://kyagrd.github.io/mininax/)
 My thesis research was about theories and language design for
 a logically consistent system that is convenient for both
 functional programming and logical reasoning, based on the Curry--Howard correspondence.
@@ -36,7 +44,7 @@ the added complexity makes it difficult to keep track of
 whether the implementation is faithful to the design written on paper.
 
 
-# Other information
+# Additional information
 In addtion, I am generally intereseted on programming languages related subjects:
 type systems, automated testing (using solvers), formal verification,
 subtyping for algebraic datatypes, and other aspects of functional languages.
