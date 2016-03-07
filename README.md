@@ -13,9 +13,9 @@ Full-time Lecturer (Office: Room 214, Humanities Building. 인문관 214호)<br/
 # Teaching
 
 ## 2016 Spring Semester @ Korea University Sejong Campus
-* [EIEN233(02) 데이타구조 (Data Structures)](http://github.io/kyagrd/eien233ds/) 화(1-2) 25-전산실2 금(1) 9-211A
-* [EIEN363(03) 컴퓨터아키텍처 (Computer Architecture)](http://github.io/kyagrd/eien363ca/) 수(8) 7-109A 목(7-8) 7-109A
-* [EIEN215(02) 공업수학I (Engineering Mathematics I)](http://github.io/kyagrd/eien215em/) 화(5-6) 7-416 금(2) 9-210C
+* [EIEN233(02) 데이타구조 (Data Structures)](http://github.com/kyagrd/eien233ds/) 화(1-2) 25-전산실2 금(1) 9-211A
+* [EIEN363(03) 컴퓨터아키텍처 (Computer Architecture)](http://github.com/kyagrd/eien363ca/) 수(8) 7-109A 목(7-8) 7-109A
+* [EIEN215(02) 공업수학I (Engineering Mathematics I)](http://github.com/kyagrd/eien215em/) 화(5-6) 7-416 금(2) 9-210C
 
 # Research
 
