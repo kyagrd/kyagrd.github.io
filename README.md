@@ -21,19 +21,18 @@ Full-time Lecturer (Office: Room 214, Humanities Building. 인문관 214호)<br/
 
 ## [TIPER](http://kyagrd.github.io/tiper/)
 My primary reserach focus is currently on developing relational specifications
-of polymorphic type systems that can be automatically executed as
-an implementation of a type system. I am envisioning to initiate
-a project called [TIPER](http://kyagrd.github.io/tiper/),
+of polymorphic type systems that can be automatically executed as working
+implementations. I am planning to initiate a project called [TIPER](http://kyagrd.github.io/tiper/),
 which aims to designe and develope a tool that automatically generates
-Type Inference Prototyping Engines from Executable Relational specifcations
-of polymorphic type systems. By combining the theriteical and techincal advances
-in the Functional Programming and the Logic Programming communities, I believe
-we could realize a missing peice of language frontend construction toolset
-that could automate static type system implemetations including both type
-checking and type inference. We already have lexer/parser geneartors
-(e.g. Lex/Yacc) but missing static type system generators.
-See the [TIPER hompage](http://kyagrd.github.io/tiper/) for further details
-on this prospective project.
+Type Inference Prototyping Engines from Executable Relational specifcations.
+By combining the theriteical and techincal advances in the Functional Programming
+and the Logic Programming communities, I believe we could realize a missing peice
+of the language frontend construction toolset. We already have lexer/parser geneartors
+(e.g. Lex/Yacc) but missing static type system generators. What we lack is
+a tool that could automate static type system implemetations supports
+both type checking and type inference over polymorphic types.
+See the [TIPER hompage](http://kyagrd.github.io/tiper/) for further
+details on this prospective project.
 
 
 ## [Nax](http://kyagrd.github.io/mininax/)
