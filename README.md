@@ -1,25 +1,41 @@
 [![profie image](http://kyagrd.github.io/images/kya_face.jpg)](https://www.dropbox.com/s/t5l62rtlmsac6q1/kyagrd_tumblr_cv.pdf) [![Facebook](http://kyagrd.github.io/images/fb_icon32.png)](http://facebook.com/kyagrd) [![Instagram](http://peakresultsnutrition.ca/wp-content/uploads/2015/03/instagram-icon-32x32.png)](https://www.instagram.com/kyagrd/) [![Flickr](http://1.bp.blogspot.com/-9o6calUfmPs/UgyeZ-68XrI/AAAAAAAAJ3U/2_2xcaZoNg0/s1600/flickr-icon.png)](https://www.flickr.com/photos/23489589@N03/) [![Google+](http://kyagrd.github.io/images/gplus_icon32.png)](https://plus.google.com/+안기영) [![Twitter](http://kyagrd.github.io/images/twitter_icon32.png)](https://twitter.com/kyagrd) [![LinkedIn](http://kyagrd.github.io/images/linkedin_icon32.png)](https://linkedin.com/in/kyagrd) [![Tumblr](http://kyagrd.github.io/images/tumblr_icon32.png)](http://kyagrd.tumblr.com/) [![ResearchGate](http://kyagrd.github.io/images/resgate_icon32.png)](https://www.researchgate.net/profile/Ki_Yung_Ahn) [![Google Scholar](http://media.mybrowseraddon.com/icons/google-scholar32.png)](https://scholar.google.com/citations?user=n-GwE98AAAAJ) [![DBLP](http://acsicpersonal.uib.es/mkhouja/wp-content/themes/zeebizzcard/images/icons/dblp.png)](http://dblp.uni-trier.de/pers/hd/a/Ahn:Ki_Yung) [![FreeSearchDBLP](http://kyagrd.github.io/images/FreeSearch32.png)](http://dblp.kbs.uni-hannover.de/dblp/Search.action?q=by%3A%22Ki+Yung+Ahn%22) [![GitHub](https://scan.coverity.com/assets/GitHub-Mark-32px-118dd57243de3bb50984e51a14f61522.png)](https://github.com/kyagrd/) [![Hackage](http://www.vectorlogo.zone/logos/haskell/haskell-icon.svg)](https://hackage.haskell.org/user/KiYungAhn) 
+
+Full-time Lecturer (Office: Room 214, Humanities Building. 인문관 214호)<br/>
+[Department of Electronics & Information Engineering](http://eie.korea.ac.kr/) <br/>
+[College of Science & Engineering](http://st.korea.ac.kr/) <br/>
+[Korea University, Sejong City, Korea](http://sejong.korea.edu/)
 * Ph.D. in [Computer Science](http://cs.pdx.edu/)
   at [Portland State University](http://www.pdx.edu/), Dec, 2014
 (advisor: [Tim Sheard](http://cs.pdx.edu/~sheard/))
 * B.S. in [Computer Science](http://cs.kaist.ac.kr/),
   at [KAIST](http://www.kaist.ac.kr/), Feb, 2002
 
+# Teaching
 
-# [TIPER](http://kyagrd.github.io/tiper/)
-My primary reserach focus is currently on [the TIPER proejct](http://kyagrd.github.io/tiper/),
+## 2016 Spring @ Korea University Sejong Campus
+* [EIEN233(02) 데이타구조 (Data Structures)](http://github.com/kyagrd/eien233ds/) 화(1-2) 25-전산실2 금(1) 9-211A
+* [EIEN363(03) 컴퓨터아키텍처 (Computer Architecture)](http://github.com/kyagrd/eien363ca/) 수(8) 7-109A 목(7-8) 7-109A
+* [EIEN215(02) 공업수학I (Engineering Mathematics I)](http://github.com/kyagrd/eien215em/) 화(5-6) 7-416 금(2) 9-210C
+
+# Research
+
+## [TIPER](http://kyagrd.github.io/tiper/)
+My primary reserach focus is currently on developing relational specifications
+of polymorphic type systems that can be automatically executed as working
+implementations. I am planning to initiate a project called [TIPER](http://kyagrd.github.io/tiper/),
 which aims to designe and develope a tool that automatically generates
-Type Inference Prototyping Engines from Executable Relational specifcations
-of polymorphic type systems. This project will be combining theriteical
-and techincal advances in the Functional Programming
-and the Logic Programming communities, in order to
-realize a missing peice of language frontend construction toolset:
-we already have lexer/parser geneartors (e.g. Yacc) but missing
-static type system generators.
-See [the TIPER project hompage](http://kyagrd.github.io/tiper/) for further details.
+Type Inference Prototyping Engines from Executable Relational specifcations.
+By combining the theriteical and techincal advances in the Functional Programming
+and the Logic Programming communities, I believe we could realize a missing peice
+of the language frontend construction toolset. We already have lexer/parser geneartors
+(e.g. Lex/Yacc) but missing static type system generators. What we lack is
+a tool that could automate static type system implemetations supports
+both type checking and type inference over polymorphic types.
+See the [TIPER hompage](http://kyagrd.github.io/tiper/) for further
+details on this prospective project.
 
 
-# [Nax](http://kyagrd.github.io/mininax/)
+## [Nax](http://kyagrd.github.io/mininax/)
 My thesis research was about theories and language design for
 a logically consistent system that is convenient for both
 functional programming and logical reasoning, based on the Curry--Howard correspondence.
@@ -31,7 +47,7 @@ the added complexity makes it difficult to keep track of
 whether the implementation is faithful to the design written on paper.
 
 
-# Other information
+# Additional information
 In addtion, I am generally intereseted on programming languages related subjects:
 type systems, automated testing (using solvers), formal verification,
 subtyping for algebraic datatypes, and other aspects of functional languages.
