@@ -9,12 +9,6 @@ Research Fellow (Office: cubicle RF2, Cyber Security Lab (CSL), NF4)<br/>
 * B.S. in [Computer Science](http://cs.kaist.ac.kr/),
   at [KAIST](http://www.kaist.ac.kr/), Feb, 2002
 
-# Teaching
-
-## 2016 Spring @ Korea University Sejong Campus
-* [EIEN233(02) 데이타구조 (Data Structures)](http://github.com/kyagrd/eien233ds/) 화(1-2) 25-전산실2 금(1) 9-211A
-* [EIEN363(03) 컴퓨터아키텍처 (Computer Architecture)](http://github.com/kyagrd/eien363ca/) 수(8) 7-109A 목(7-8) 7-109A
-* [EIEN215(02) 공업수학I (Engineering Mathematics I)](http://github.com/kyagrd/eien215em/) 화(5-6) 7-416 금(2) 9-210C
 
 # Research
 
