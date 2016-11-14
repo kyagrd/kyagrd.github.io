@@ -12,6 +12,10 @@ Research Fellow (Office: cubicle RF2, Cyber Security Lab (CSL), NF4)<br/>
 
 # Research
 
+## Secruity and Process Calculi
+
+Joined [Alwen Tui](http://www.ntu.edu.sg/home/atiu/)'s research group working on security protocols based on pi-calculi.
+
 ## [TIPER](http://kyagrd.github.io/tiper/)
 My primary reserach focus is currently on developing relational specifications
 of polymorphic type systems that can be automatically executed as working
