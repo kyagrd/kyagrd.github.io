@@ -51,15 +51,12 @@ type systems, automated testing (using solvers), formal verification,
 subtyping for algebraic datatypes, and other aspects of functional languages.
 
 Further details about me are summarized in
-my [CV (or, resume)](https://www.dropbox.com/s/t5l62rtlmsac6q1/kyagrd_tumblr_cv.pdf)
-and
+my [CV (resume)](http://kyagrd.github.io/cv/cv.pdf).
+<!-- and
 the list of my publications are also available on
 my [Google Scholar profile](http://scholar.google.com/citations?user=n-GwE98AAAAJ&view_op=list_works&sortby=pubdate)
 and
 on my [ResearchGate profile](https://www.researchgate.net/profile/Ki_Yung_Ahn/publications).
-
-<!--
-my [Research Plan](https://www.dropbox.com/s/bgg2rs9dw3x6eol/kyagrd_tumblr_resplan.pdf).
 -->
 
 
