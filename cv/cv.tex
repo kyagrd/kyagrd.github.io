@@ -1,0 +1,685 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NOTE: If you find that it says                                     %%
+%%                                                                    %%
+%%                           1 of ??                                  %%
+%%                                                                    %%
+%% at the bottom of your first page, this means that the AUX file     %%
+%% was not available when you ran LaTeX on this source. Simply RERUN  %%
+%% LaTeX to get the ``??'' replaced with the number of the last page  %%
+%% of the document. The AUX file will be generated on the first run   %%
+%% of LaTeX and used on the second run to fill in all of the          %%
+%% references.                                                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Don't like 10pt? Try 11pt or 12pt
+\documentclass[11pt,letterpaper]{article}
+
+% The automated optical recognition software used to digitize resume
+% information works best with fonts that do not have serifs. This
+% command uses a sans serif font throughout. Uncomment both lines (or at
+% least the second) to restore a Roman font (i.e., a font with serifs).
+%\usepackage{times}
+%\renewcommand{\familydefault}{\sfdefault}
+
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+\usepackage{comment}
+\usepackage{amsmath}
+\usepackage[numbers]{natbib}
+% \usepackage[sorting=ydnt]{biblatex}
+% \usepackage[sorting=none,maxnames=10,bibstyle=authoryear,backend=bibtex,uniquename=true]{biblatex}
+% \nocite{*}
+% \addbibresource{cv.bib}
+
+% % Simpler bibsection for CV sections
+% % (thanks to natbib for inspiration)
+% \makeatletter
+% \newlength{\bibhang}
+% \setlength{\bibhang}{1em} %1em}
+% \newlength{\bibsep}
+%  {\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
+% \newenvironment{bibsection}%
+%         {\begin{enumerate}{}{%
+% %        {\begin{list}{}{%
+%        \setlength{\leftmargin}{\bibhang}%
+%        \setlength{\itemindent}{-\leftmargin}%
+%        \setlength{\itemsep}{\bibsep}%
+%        \setlength{\parsep}{\z@}%
+%         \setlength{\partopsep}{0pt}%
+%         \setlength{\topsep}{0pt}}}
+%         {\end{enumerate}\vspace{-.6\baselineskip}}
+% %        {\end{list}\vspace{-.6\baselineskip}}
+% \makeatother
+
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%
+%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
+%
+% The next \usepackage line changes the layout for CV style section
+% headings as marginal notes. It also sets up the paper size as either
+% letter or A4. By default, letter was used. If A4 paper is desired,
+% comment out the letterpaper lines and uncomment the a4paper lines.
+%
+% As you can see, the margin widths and section title widths can be
+% easily adjusted.
+%
+% ALSO: Notice that the includefoot option can be commented OUT in order
+% to put the PAGE NUMBER *IN* the bottom margin. This will make the
+% effective text area larger.
+%
+% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
+% see the note about the +LP and -LP lines below. Comment out the +LP
+% and uncomment the -LP.
+%
+% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
+% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
+% below.
+%
+
+%% Use these lines for letter-sized paper
+\usepackage[paper=letterpaper,
+            %includefoot, % Uncomment to put page number above margin
+            marginparwidth=1.2in,     % Length of section titles
+            marginparsep=.05in,       % Space between titles and text
+            margin=1.5cm,             
+	    includefoot,
+	    footskip=30pt,
+            includemp]{geometry}
+
+%% Use these lines for A4-sized paper
+%\usepackage[paper=a4paper,
+%            %includefoot, % Uncomment to put page number above margin
+%            marginparwidth=30.5mm,    % Length of section titles
+%            marginparsep=1.5mm,       % Space between titles and text
+%            margin=25mm,              % 25mm margins
+%            includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0in}
+
+\usepackage[shortlabels]{enumitem}
+
+%% Reference the last page in the page number
+%
+% NOTE: comment the +LP line and uncomment the -LP line to have page
+%       numbers without the ``of ##'' last page reference)
+%
+% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+%       numbers (make sure includefoot is commented out above)
+%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+%\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill %
+                    \arabic{page} of \protect\pageref*{LastPage} % +LP
+%                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Finally, give us PDF bookmarks
+\usepackage{color}
+\usepackage{hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+% (optional argument typesets an object right-justified across from name
+%  as well)
+%
+% Usage: \makeheading{name}
+%        OR
+%        \makeheading[right_object]{name}
+%
+% Place at top of document. It should be the first thing.
+% If ``right_object'' is provided in the square-braced optional
+% argument, it will be right justified on the same line as ``name'' at
+% the top of the CV. For example:
+%
+%       \makeheading[\emph{Curriculum vitae}]{Your Name}
+%
+% will put an emphasized ``Curriculum vitae'' at the top of the document
+% as a title. Likewise, a picture could be included:
+%
+%   \makeheading[\includegraphics[height=1.5in]{my_picutre}]{Your Name}
+%
+% the picture will be flush right across from the name.
+\newcommand{\makeheading}[2][]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+             {\large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}%
+         \end{minipage}}
+
+% The section headings
+%
+% Usage: \section{section name}
+\renewcommand{\section}[1]{\pagebreak[3]%
+    \hyphenpenalty=10000%
+    \vspace{1.3\baselineskip}%
+    \phantomsection\addcontentsline{toc}{section}{#1}%
+    \noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth}{\raggedright #1}}}%
+    \vspace{-\baselineskip}\par}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1,leftmargin=*]}{\end{itemize}%
+         \vspace{-.6\baselineskip}}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{lonelist}[1][\enskip\textbullet]%
+        {\begin{list}{#1}{%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{list}\vspace{-.6\baselineskip}}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
+        {\end{itemize}}
+
+% An environment IDENTICAL to innerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{loneinnerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
+        {\end{itemize}\vspace{-.6\baselineskip}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[3]}
+\newcommand{\halfblankline}{\quad\vspace{-0.5\baselineskip}\pagebreak[3]}
+
+% Uses hyperref to link DOI
+\newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
+\newcommand\doi[1]{doi:\doilink{#1}}
+
+% For \url{SOME_URL}, links SOME_URL to the url SOME_URL
+\providecommand*\url[1]{\href{#1}{#1}}
+% Same as above, but pretty-prints SOME_URL in teletype fixed-width font
+\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
+
+% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
+\providecommand*\email[1]{\href{mailto:#1}{#1}}
+% Same as above, but pretty-prints ADDRESS in teletype fixed-width font
+%\renewcommand*\email[1]{\href{mailto:#1}{\texttt{#1}}}
+
+%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+%    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+%    \TeX}}
+\providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    \TeX}}
+\providecommand\Matlab{\textsc{Matlab}}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\makeheading{Ki Yung \; Ahn ~ {\scriptsize\sf Research Fellow
+		in the School of Computer Science \& Engineering
+		at Nanyang Technological University, Singapore }  }
+
+\section{Contact Information}
+
+% NOTE: Mind where the & separators and \\ breaks are in the following
+%       table.
+%
+% ALSO: \rcollength is the width of the right column of the table
+%       (adjust it to your liking; default is 1.85in).
+%
+\newlength{\rcollength}\setlength{\rcollength}{5.4cm}%
+%
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+%% Samick Green Mansion 509-205
+Cyber Security Lab (Blk. N4-B2C-06)
+% \href{http://www.cs.pdx.edu/}{Department of Computer Science}
+                            &  \email{kyagrd@gmail.com} \\
+%% Godeok-ro 210, Myungil-dong, Gangdong-gu
+50 Nanyang Avenue
+% \href{http://www.pdx.edu/}{Portland State University} PO Box 751
+			    % & +1 503 608 7720 \\
+			    % & +82 10 2287 3608 \\
+			    & +65 8589 1226 \\
+%% Seoul, Replublic of Korea (South) 134-782
+% Portland, OR  97207-0751  USA
+Singapore 639798
+	& \href{http://kyagrd.github.io/}{\url{http://kyagrd.github.io/}}
+\end{tabular}
+
+%\section{Objective}
+
+%Insert text here if you want to
+%\begin{innerlist}
+%\item More information and auxiliary documents can be found at\\\url{http://www.tedpavlic.com/facjobsearch/}
+%\end{innerlist}
+
+\section{Research Interests}
+Security protocol verification using process calcului,
+\newline
+Executable relational specifications of polymorphic type systems using logic programming,
+\newline
+Language design to support both convenient programming and
+logically consistent reasoning via the Curry--Howard correspondence,
+%% (Mendler-style recursion schemes, term-indexed types),
+\newline
+Extending the Hindley--Milner (HM) type inference for languages
+with Mendler-style recursion schemes and GADTs with true term indices, and
+\newline
+Interfacing with solvers (e.g, SAT, SMT) in automated testing/verification frameworks.
+
+\section{Education}
+\href{http://www.pdx.edu}{\textbf{Portland State University}}, Portland, OR, USA
+\vspace*{.5mm}\newline
+Ph.D. (Advisor: \href{http://www.cs.umn.edu/~sheard/}{Tim Sheard}),
+        \href{http://www.cs.pdx.edu/}{Computer Science},
+             Dec 2014
+\vspace*{-2mm}
+\begin{outerlist}
+\item[]
+  \href{http://archives.pdx.edu/ds/psu/13198}{\emph{The Nax language}: \emph{unifying functional programming
+                                            and logical reasoning in}\newline
+              \hfill\emph{a language based on Mendler-style recursion schemes and term-indexed types} }
+\end{outerlist}
+\vspace{.1in}
+\href{http://www.kaist.ac.kr}{\textbf{KAIST}}, Daejeon, Republic of Korea
+\vspace*{.5mm}\newline
+B.S., \href{http://cs.kaist.ac.kr/}{Computer Science} {\small(major)}
+  and \href{http://cs.kaist.ac.kr/}{Mathematics} {\small(sub-major)}, Mar 2002
+
+\section{Research Experience \\ and \\ Academic Visits}
+\textbf{Research Fellow} ~ (current position)
+	\hfill {Jul 2016 ~-~ current}
+\begin{innerlist}
+\item[] School of Computer Science \& Engineering, Nanyang Technological University, Singapore ~\newline
+	PI: Alwen Tiu (Assistant Professor)
+\end{innerlist}
+\vspace{2mm}
+\textbf{Gratuitous Visit}
+	~ {\small(Talk info: \url{http://talks.cam.ac.uk/talk/index/60589})}
+	\hfill {Sep 2015}
+\begin{innerlist}
+\item[] Programming Principles and Tools group, Microsoft Research, Cambridge, UK ~\newline
+	Host: Claudio Russo (Senior Research Software Development Engineer)
+\end{innerlist}
+\vspace{2mm}
+\textbf{Academic Visit}
+	~ {\small(Talk info: \url{http://slides.com/kyagrd/tiperdundee})}
+	\hfill {Aug 2015}
+\begin{innerlist}
+\item[] Programming Languages, Semantics and Logic group,
+	University of Dundee, UK ~\newline
+        Host: Ekaterina Komendantskaya (Reader)
+\end{innerlist}
+\vspace{2mm}
+\textbf{Visiting Student} \cite{AhnSheFioPit13}
+	{\small(Talk info: \url{http://talks.cam.ac.uk/talk/index/33917})}
+	\hfill {Sep\,-\,Dec 2011}
+\begin{innerlist}
+\item[] Computer Laboratory, University of Cambridge, Cambridge, UK ~\newline
+        Hosts: Andrew M. Pitts (Professor), Marcelo Fiore (Professor)
+\end{innerlist}
+\vspace{2mm}
+\textbf{NASA Ames MCT Internship} \cite{Ahn13,Ahn10} \hfill {Jun - Sep 2009}
+\begin{innerlist}
+\item[] Mission Control Technologies at NASA Ames Research Center, CA, USA ~\newline
+        Supervisor: Ewen Denney (Senior Computer Scientist)
+\end{innerlist}
+\vspace{2mm}
+\textbf{Research Assistant (Graduate Student)} \cite{Ahn11,Ahn08,Kimmell12,Vilhelm12} \hfill {Sep 2007 - Sep 2013}
+\vspace{-2mm}
+
+\section{Software Projects}
+TIPER - Type Inference Prototyping Engines from Executable Relational specifcations ~\newline
+\url{https://github.com/kyagrd/tiper}
+\vspace*{2mm}\newline
+Mininax - prototype implementation of the Nax language ~\newline
+\url{https://github.com/kyagrd/mininax}
+\vspace*{2mm}\newline
+Haskell programming interface to the Yices SMT solver (through UNIX pipe) ~\newline
+\url{http://hackage.haskell.org/package/yices}
+
+\section{Awards}	
+Bronze medal in the ACM Student Research Competition (SRC) at ICFP 2012
+\vspace*{-2mm}
+
+\section{Industry Experience}
+\textbf{Formal Verification Software Engineer (Intern)} \hfill {Sep 2013 - Mar 2014}
+\begin{innerlist}
+\item[] Refactored parts of the Forte system libraries written in FL (a reflective
+        functional language for HW design and theorem proving) and also implemented
+        specification search by using term rewriting \newline
+        Formal Verification Center of Expertise (DTS/FVCoE),
+        Intel, Hillsboro, OR, USA ~\newline
+        Supervisors: John W. O'Leary, Roope Kaivola (Principal Engineers)
+\end{innerlist}
+\vspace{2mm}
+\textbf{Quantitative Summer Institute (QSI) Associate (Intern)} \hfill {Jun - Aug 2008}
+\begin{innerlist}
+\item[] Global Modelling and Analytics Group, Credit Suisse, New York, NY, USA ~\newline
+        Supervisor: Howard Mansell (Quantitative Strategist)
+\end{innerlist}
+\vspace{2mm}
+\textbf{Internet Storage Service Server Developer} \hfill {Mar 2002 - May 2005}
+\begin{innerlist}
+\item[] PopFolder: revenue over 10 million USD, over a million users in 2002 ~\newline
+        \href{http://www.gretech.com/eng/}{Gretech}, Seoul, Republic of Korea ~\newline
+        Supervisor: Keunho Bae (Director)
+        \qquad {\tiny Skills:  C/C++, TCP/IP, UNIX, Berkley DB, PostgreSQL}
+\end{innerlist}
+
+\section{Teaching Experience}
+\textbf{Full-time Lecturer} \hfill {Spring 2016}\\
+Electronics and Information Engineering,
+Korea University, Sejong City, Korea  \vspace*{-.3em}
+\begin{itemize}
+\item \href{http://github.com/kyagrd/eien233ds/}
+             {EIEN233(02) Data Structures}
+	     {\small(lecture in Korean)} \vspace*{-.4em}
+\item \href{http://github.com/kyagrd/eien363ca/}
+             {EIEN363(03) Computer Architecture}
+             {\small(lecture in Korean)} \vspace*{-.4em}
+\item \href{http://github.com/kyagrd/eien215em/}
+             {EIEN215(02) Engineering Mathematics I}
+             {\small(lecture in English)}
+\end{itemize}
+
+\textbf{Teaching Assistant} \hfill {Spring and Summer 2007}
+\begin{innerlist}
+\item[] \href{http://www.pdx.edu/computer-science/cs-106-computing-fundamentals-ii}
+             {CS 106: Computing Fundamentals II}
+             {\small(Intro. to programming for non-CS majors)} ~\newline
+        Computer Science, Portland State University, Portland, OR, USA ~\newline
+        Supervisor: Cynthia A. Brown (Emerita Professor)
+\end{innerlist}
+
+\section{Translations}
+\href{http://kyagrd.github.io/haskell/}{Korean translation (ISBN 9788972808183)} of
+\href{http://www.cs.nott.ac.uk/~gmh/book.html}{\emph{Programming in Haskell}} (ISBN\\ 9780521692694) by Graham Hutton
+\vspace*{-2mm}
+
+\section{Reviewer (Referee)}
+Typed Lambda Calculus and Applications 2015\vspace{1mm}
+
+Trends in Functional Programming 2013\vspace{1mm}
+
+Higher-Order and Symbolic Computation (special issue for PEPM 2012) \vspace{1mm}
+
+NASA Formal Methods Symposium 2011
+\vspace*{-2mm}
+
+\section{Talks}
+\href{http://slides.com/kyagrd/rowpoly-coalpty16}{A Prolog Specification of Extensible Records using Row Polymorphism} (invited talk)
+\begin{innerlist}
+\item[] \href{http://slides.com/kyagrd/rowpoly-coalpty16}{Workshop on Coalgebra, Horn Clause Logic Programming and Types (CoALP-Ty '16)},
+Edinburgh, UK, 28–-29 November 2016
+\end{innerlist}
+
+% \section{Selected Publications}
+\section{Publications}
+\vspace*{-4mm}
+\nocite{*}
+\begingroup
+\renewcommand{\section}[2]{}%
+\bibliographystyle{unsrtnat}
+%\bibliographystyle{plainnat}
+\bibliography{cv}
+\endgroup
+
+
+\section{Upcoming Papers}
+$[\textrm{u1}]$ \label{u1}
+Mendler-style recursion schemes for mixed-variant datatypes\\ \hspace*{3.8ex}
+Ki Yung Ahn, Tim Sheard, and Marcelo Fiore. \\ \hspace*{3.8ex}
+(\href{http://www.irit.fr/TYPES2013/Slides/TYPES13Slides\_Sheard\_et\_al.pdf}
+      {slides in TYPES 2013 talk},
+ \href{https://www.sharelatex.com/project/53d585f0fc24c66d134e82eb}
+      {draft})
+\vspace*{1mm} \\
+$[\textrm{u2}]$ \label{u2}
+An executable relational specification of extensible records using logic programming\\ \hspace*{3.8ex} 
+Ki Yung Ahn and others. ~~
+(\href{https://www.sharelatex.com/project/571c920b55374a8e523e2d87}{An early draft plan available online}) ~~
+
+
+\section{Summary of \\my Research Contributions}
+%% \hspace*{2ex} My main line of research in recent years has been around
+%% my PhD thesis:
+%% \begin{quote}
+%% We can design a functional language that can be used as a logically consistent
+%% theorem prover exploiting Curry--Howard correspondence, while maintaining most
+%% of the features familiar to functional programmers who are not necessarily
+%% highly exposed to dependently-typed proof assistants.
+%% \end{quote}
+%% There are two advantages of developing such a language. First is
+%% the accessibility from a broader user base because of the little learning curve,
+%% compared to being exposed to fully dependent type systems in proof assistants.
+%% %% Although dependently typed proof assistants based on the Curry--Howard
+%% %% correspondence have have many similarities to functional languages,
+%% %% there exists some noticeable differences in their type system when compared to
+%% %% the typical type systems of functional languages
+%% %% (e.g., predicative stratified universe,
+%% %% lack of Hindley--Milner-style type inference,
+%% %% strict-positivity restriction on datatype declarations,
+%% %% and difficulties in type erasure at compile time).
+%% Second is the possibility of collecting low-hanging fruit from
+%% the existing theories and tools developed around functional languages.
+
+%% \hspace*{2ex}
+The contributions of my reseach can be categorized into three areas:
+\begin{description}
+\item[~~Executable relational specifications of polymorhpic type systems.]~
+
+\hspace*{1ex}
+I (in collaboration with Vezzosi) provided an executable specification
+\cite{AhnVez16} of an advanced type system that supports
+parametric polymorphism in several dimensions including type polymorphism,
+type constructor polymorphism, and kind polymorphism (all in rank-1, for type
+inference). The specification is succinct, declarative, and it also servers
+as a reference implementation for type inference --- key features of Nax
+including pattern matching and Mendler-style iteration could be specified
+in less than 100 lines of Prolog. The specification is not only short
+but also highly readable because of its structural resemblance to
+the typing rules typically used for describing type systems on paper.
+In addition, this specification can execute queries of type inference
+by exploiting backward-chaining of Prolog as well as checking types.
+Recently, I was able to identify key ingredients to specify
+extensible records  $[\text{\hyperref[u2]{u2}}]$.
+% Supporting other features such as first-class polymorphism, modules, and
+% GADTs with term indices are left for future work.
+
+\hspace*{1ex}
+I have initiated \href{http://kyagrd.github.com/tiper/}{a project called TIPER}
+in order to realize the idea from this line of research (i.e., logic programming
+for executable specification of type systems) into a practical tool
+that automates type system implementation in compiler construction and
+plug-ins for development tools. We already have tools  (e.g. Yacc) for
+automatically generating parsers from declarative grammar rule specifications
+but in lack of tools for automatically generating type system implementations
+supporting polymorphic type inference from typing rule specifications.
+
+
+\item[~~Mendler-style recursion schemes for mixed-variant datatypes.]~
+
+\hspace*{1ex}
+My contribution in Mendler-style recursion schemes for mixed-variant datatypes
+provides the basis for safely supporting mixed-variant datatype declarations
+in the Nax language and future language designs to be inspired by Nax.
+Mainstream dependently typed proof assistants disallow
+mixed-variant datatype declarations.
+
+\hspace*{1ex}
+I (in collaboration with Sheard) discovered a Mendler-style version
+\cite{Ahn11} of the cata-morphism over datatypes
+with contravariant recursive occurrences\footnote{ Datatypes with both
+	covariant and contravariant recursive occurrences are also known as
+	\emph{mixed-variant datatypes}. } (Fegaras and Sheard 2009).
+% We named our recursion scheme as the Mendler-style Shared--Fegaras iteration
+% (in abbr., \textbf{msfit}). 
+Discovering Mendler-style counterparts is more than
+mere reformulation of already known recursion schemes.
+Unlike conventional recursion schemes, Mendler-style recursion schemes
+naturally generalize non-regular datatypes including nested datatypes and
+GADTs. In addition, previous studies on Mendler-style recursion schemes
+were mostly focused on datatypes with covariant recursive occurrences.
+
+\hspace*{1ex}
+Recently, I (in collaboration with Fiore and Sheard)
+formulated a Mendler-style version $[\text{\hyperref[u1]{u1}}]$ of
+the parametric\footnote{
+	As in \emph{parametric} higher-order absract syntax (PHOAS).}
+variant of the (non-Mendler-style) Sheard--Fegaras catamorphsim
+(Bahr and Hvitved 2012).
+However, investigations on the termination properties of
+this new recursion scheme are still left for future work.
+
+\item[~~Typed lambda calculi with erasable term indices.]~
+
+\hspace*{1ex}
+I (in collaboration with Sheard, Pitts, and Fiore) provided
+a baseline understanding of generalized algebraic datatypes (GADTs) with
+real term indices and their associated Mendler-style recursion schemes,
+by formulating System~$\mathrm{F}_i$ \cite{AhnSheFioPit13}, which extends
+System~$\textrm{F}_\omega$ with erasable term indices. System~$\mathrm{F}_i$
+is carefully designed to inherit the desirable properties of
+System $\mathrm{F}_\omega$ including type preservation and logical consistency.
+In my dissertation \cite{AhnPhdThesis14}, I also show that the same extension
+can be applied to System~$\mathrm{Fix}_\omega$ (Abel and Matthes 2004)
+designed for embedding the Mendler-style primitive recursion.
+
+\hspace*{1ex}
+Polymorphic lambda calculi provide us a baseline understanding of
+the type systems of functional languages. For example, we know that
+extensions to HM such as higher-rank types will not break properties
+proven to hold in System~F because higher-rank polymorphism is already
+part of System~F. Datatypes and pattern matching can also be understood
+within a pure polymorphic lambda calculus via the B\"ohm-Berarducci encoding.
+Functional languages with more advanced type systems that support
+type constructor polymorphism (a.k.a., higher-kinded polymorphism) could
+be understood in terms of System~$\textrm{F}_\omega$.
+Due to my contribution of formulating System~$\mathrm{F}_i$,
+our baseline understanding now extends over GADTs with real term indicies.
+% Further possible extensions to System~$\mathrm{F}_i$ are left for future work.
+
+\end{description}
+
+\vspace*{1.5ex}
+In addition to my contributions in the three major areas mentioned
+above, I have several other research interests and experiences including
+the following items: 
+\begin{itemize}
+\item During my research internship at NASA Ames, I used QuickCheck
+	to generate test cases for the first-order axioms for proving
+	automatically generated verification conditions \cite{Ahn10,Ahn13}.
+	The main challenge was to cut down the vacuously satisfiable
+	tests caused by the variables inside the premise (i.e., left-hand side
+	of the implication).
+\item I participated in the Trellys research group \cite{Kimmell12,Vilhelm12},
+	which was an inter-institutional project funded by the NSF
+	in the USA. The goal of the project was to develop
+	a dependently typed language that can be used for both
+	logical reasoning and programming.
+% The Trellys group designed a language
+% \cite{Kimmell:2012:ERP:2103776.2103780,DBLP:journals/corr/abs-1202-2923}
+% that has two modes of type checking, one for paradox-free proofs
+% (as in proof assistants) and the other for programming
+% (as in Turing-complete general purpose programing languages),
+% and these two modes of typing judgements can carefully refer to each other.
+
+\end{itemize}
+
+\end{document}
+
+
+\section{References}
+Available upon request.
+
+
+Tim Sheard $\langle$\email{sheard@cs.pdx.edu}$\rangle$ (Professor)
+\begin{innerlist}
+\item[]
+Department of Computer Science, Portland State University, USA
+\end{innerlist}
+\halfblankline
+
+% Ewen Denney $\langle$\email{Ewen.W.Denney@nasa.gov}$\rangle$ (Senior Computer Scientist)
+% \begin{innerlist}
+% \item[]
+% Robust Software Engineering Group, NASA Ames Research Center, USA
+% \end{innerlist}
+% \halfblankline
+
+Marcelo P. Fiore $\langle$\email{Marcelo.Fiore@cl.cam.ac.uk}$\rangle$ (Professor)
+\begin{innerlist}
+\item[]
+Computer Laboratory, University of Cambridge, UK
+\end{innerlist}
+\halfblankline
+
+Andrew M. Pitts $\langle$\email{Andrew.Pitts@cl.cam.ac.uk}$\rangle$ (Professor)
+\begin{innerlist}
+\item[] 
+Computer Laboratory, University of Cambridge, UK
+\end{innerlist}
+\halfblankline
+
+Aaron Stump  $\langle$\email{aaron-stump@uiowa.edu}$\rangle$
+\begin{innerlist}
+\item[] 
+Department of Computer Science, University of Iowa, USA
+\end{innerlist}
+\halfblankline
+
+Stephanie Weirich $\langle$\email{sweirich@cis.upenn.edu}$\rangle$
+\begin{innerlist}
+\item[]
+Department of Computer \& Information Science, University of Pennsylvania, USA
+\end{innerlist}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------%
+% The following is copyright and licensing information for
+% redistribution of this LaTeX source code; it also includes a liability
+% statement. If this source code is not being redistributed to others,
+% it may be omitted. It has no effect on the function of the above code.
+%----------------------------------------------------------------------%
+% Copyright (c) 2007, 2008, 2009, 2010, 2011 by Theodore P. Pavlic
+%
+% Unless otherwise expressly stated, this work is licensed under the
+% Creative Commons Attribution-Noncommercial 3.0 United States License. To
+% view a copy of this license, visit
+% http://creativecommons.org/licenses/by-nc/3.0/us/ or send a letter to
+% Creative Commons, 171 Second Street, Suite 300, San Francisco,
+% California, 94105, USA.
+%
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+% OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+% MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+% IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+% CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+% TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+% SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+%----------------------------------------------------------------------%
