@@ -16,7 +16,7 @@ Research Fellow (Office: cubicle RF2, Cyber Security Lab (CSL), NF4)<br/>
 
 Joined [Alwen Tui](http://www.ntu.edu.sg/home/atiu/)'s research group working on security protocols based on pi-calculi.
 
-![CONCUR2017BestPaper](http://www.ntu.edu.sg/home/rhorne/bestpaper.jpg)
+[![CONCUR2017BestPaper](http://kyagrd.github.io/images/concur2017bestpaper_small.jpg)](http://www.ntu.edu.sg/home/rhorne/bestpaper.jpg)
 
 
 ## [TIPER](http://kyagrd.github.io/tiper/)
