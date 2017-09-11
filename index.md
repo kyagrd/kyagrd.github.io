@@ -24,7 +24,7 @@ Joined [Alwen Tiu](http://www.ntu.edu.sg/home/atiu/)'s research group in 2016 su
 
 
 ## [TIPER](http://kyagrd.github.io/tiper/)
-My primary reserach focus is currently on developing relational specifications
+Another research interest of mine is developing relational specifications
 of polymorphic type systems that can be automatically executed as working
 implementations. I am planning to initiate a project called [TIPER](http://kyagrd.github.io/tiper/),
 which aims to designe and develope a tool that automatically generates
