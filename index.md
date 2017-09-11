@@ -16,7 +16,7 @@ Research Fellow (Office: cubicle RF2, Cyber Security Lab (CSL), NF4)<br/>
 
 Joined [Alwen Tui](http://www.ntu.edu.sg/home/atiu/)'s research group working on security protocols based on pi-calculi.
 
- * Ki Yung Ahn, Ross Horne and Alwen Tiu. *A Characterisation of Open Bisimilarity using an Intuitionistic Modal Logic. 28th International Conference on Concurrency Theory (CONCUR 2017).* Editors: Roland Meyer and Uwe Nestmann; Article No. 7; pp. 7:1-7:15. Leibniz International Proceedings in Informatics. DOI:10.4230/LIPIcs.CONCUR.2017.7
+ * Ki Yung Ahn, [Ross Horne](http://www.ntu.edu.sg/home/rhorne/) and [Alwen Tui](http://www.ntu.edu.sg/home/atiu/). *A Characterisation of Open Bisimilarity using an Intuitionistic Modal Logic. 28th International Conference on Concurrency Theory (CONCUR 2017).* Editors: Roland Meyer and Uwe Nestmann; Article No. 7; pp. 7:1-7:15. Leibniz International Proceedings in Informatics. DOI: [10.4230/LIPIcs.CONCUR.2017.7](http://dx.doi.org/10.4230/LIPIcs.CONCUR.2017.7)
   [![CONCUR2017BestPaper](http://kyagrd.github.io/images/concur2017bestpaper_small.jpg)](http://www.ntu.edu.sg/home/rhorne/bestpaper.jpg)
 
 
