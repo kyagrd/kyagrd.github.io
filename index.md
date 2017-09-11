@@ -14,8 +14,7 @@ Research Fellow (Office: cubicle RF2, Cyber Security Lab (CSL), NF4)<br/>
 
 ## Security and Process Calculi
 
-Joined [Alwen Tiu](http://www.ntu.edu.sg/home/atiu/)'s research group in 2016 summer, working on security protocols based on pi-calculi. Our recent result on the modal logic for open bismulation has been presented in CONCUR 2017:
-
+Joined [Alwen Tiu](http://www.ntu.edu.sg/home/atiu/)'s research group in 2016 summer, working on security protocols based on pi-calculi. Our recent result on the modal logic for open bismulation has been presented in CONCUR 2017 and awarded as the best paper:
  * Ki Yung Ahn, [Ross Horne](http://www.ntu.edu.sg/home/rhorne/) and [Alwen Tiu](http://www.ntu.edu.sg/home/atiu/). [*A Characterisation of Open Bisimilarity using an Intuitionistic Modal Logic.*](http://drops.dagstuhl.de/opus/volltexte/2017/7789/pdf/LIPIcs-CONCUR-2017-7.pdf) 28th International Conference on Concurrency Theory (CONCUR 2017). September 5-8, 2017. Berlin, Germany. Editors: Roland Meyer and Uwe Nestmann; [ISBN 978-3-95977-048-4; LIPICS Volume 85](http://drops.dagstuhl.de/opus/portals/lipics/index.php?semnr=16046); Article No. 7; pp. 7:1-7:15. Leibniz International Proceedings in Informatics. ISSN 1868-8969. DOI: [10.4230/LIPIcs.CONCUR.2017.7](http://dx.doi.org/10.4230/LIPIcs.CONCUR.2017.7)
    - [Slides](http://www.ntu.edu.sg/home/rhorne/concur17.pdf) presented by Ross at CONCUR 2017.
    - An [Extended Version](https://www.researchgate.net/publication/312550567) including Abella formalization of proofs and Bedwyr test of examples.
