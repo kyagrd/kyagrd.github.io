@@ -2,7 +2,7 @@
 
 Assistant Professor <br/>
 [Department of Computer, Communication and Unmanned Technology](http://dccut.hannam.ac.kr/) <br />
-[College of Engineering](http://int.hnu.kr/eng/sub.php?menuIdx=21) <br />
+[College of Engineering](http://int.hnu.kr/eng/sub.php?menuIdx=21),
 [Hannam University](http://int.hnu.kr/eng/), Daejeon, Korea
 
 * Ph.D. in [Computer Science](http://cs.pdx.edu/)
