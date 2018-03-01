@@ -21,7 +21,7 @@ Joined [Alwen Tiu](http://www.ntu.edu.sg/home/atiu/)'s research group in 2016 su
    - [Slides](http://www.ntu.edu.sg/home/rhorne/concur17.pdf) presented by Ross at CONCUR 2017.
    - An [Extended Version](https://www.researchgate.net/publication/312550567) including Abella formalization of proofs and Bedwyr test of examples.
    - A certificate of the Best Paper Award <br /><a href="http://www.ntu.edu.sg/home/rhorne/bestpaper.jpg">![CONCUR2017BestPaper](http://kyagrd.github.io/images/concur2017bestpaper_small.jpg)</a>
-   - [A News Article](http://scse.ntu.edu.sg/NewsnEvents/Pages/News-Detail.aspx?news=6fe26396-875a-4172-b006-dc1c624f6aed) about the award from the homepage of School of Computer Science & Engineering @ NTU.
+   - [A News Article](http://scse.ntu.edu.sg/NewsnEvents/Pages/News-Detail.aspx?news=6fe26396-875a-4172-b006-dc1c624f6aed) about the award from the homepage of School of Computer Science & Engineering @ NTU.
 
 
 ## [TIPER](http://kyagrd.github.io/tiper/)
