@@ -58,7 +58,7 @@ type systems, automated testing (using solvers), formal verification,
 subtyping for algebraic datatypes, and other aspects of functional languages.
 
 Further details about me are summarized in
-my [CV (resume)](http://kyagrd.github.io/cv/cv.pdf).
+my [CV (resume)](http://kyagrd.github.io/cv/cv.pdf); most recent change of position at Hannam University not yet updated in the CV.
 <!-- and
 the list of my publications are also available on
 my [Google Scholar profile](http://scholar.google.com/citations?user=n-GwE98AAAAJ&view_op=list_works&sortby=pubdate)
