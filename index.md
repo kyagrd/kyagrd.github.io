@@ -1,8 +1,10 @@
 [![profie image](http://kyagrd.github.io/images/kya_face.jpg)](https://www.dropbox.com/s/t5l62rtlmsac6q1/kyagrd_tumblr_cv.pdf) [![Facebook](http://kyagrd.github.io/images/fb_icon32.png)](http://facebook.com/kyagrd) [![Instagram](http://kyagrd.github.io/images/instagram-logo-32x32.png)](https://www.instagram.com/kyagrd/) [![Flickr](http://1.bp.blogspot.com/-9o6calUfmPs/UgyeZ-68XrI/AAAAAAAAJ3U/2_2xcaZoNg0/s1600/flickr-icon.png)](https://www.flickr.com/photos/23489589@N03/) [![Google+](http://kyagrd.github.io/images/gplus_icon32.png)](https://plus.google.com/+안기영) [![Twitter](http://kyagrd.github.io/images/twitter_icon32.png)](https://twitter.com/kyagrd) [![LinkedIn](http://kyagrd.github.io/images/linkedin_icon32.png)](https://linkedin.com/in/kyagrd) [![Logdown](http://kyagrd.github.io/images/logdown_icon32.png)](http://kyagrd.logdown.com/) [![ResearchGate](http://kyagrd.github.io/images/resgate_icon32.png)](https://www.researchgate.net/profile/Ki_Yung_Ahn) [![Google Scholar](http://media.mybrowseraddon.com/icons/google-scholar32.png)](https://scholar.google.com/citations?user=n-GwE98AAAAJ) [![DBLP](http://acsicpersonal.uib.es/mkhouja/wp-content/themes/zeebizzcard/images/icons/dblp.png)](http://dblp.uni-trier.de/pers/hd/a/Ahn:Ki_Yung) [![ORCID](https://orcid.org/sites/default/files/images/orcid_32x32.png)](http://orcid.org/0000-0002-7171-7979) [![GitHub](http://kyagrd.github.io/images/octocat-logo.png)](https://github.com/kyagrd/) [![Hackage](http://www.vectorlogo.zone/logos/haskell/haskell-icon.svg)](https://hackage.haskell.org/user/KiYungAhn) 
 
-Research Fellow (Office: cubicle RF2, Cyber Security Lab (CSL), NF4)<br/>
-[School of Computer Scinece and Engineering (SCSE)](http://scse.ntu.edu.sg/) <br/>
-[Nanyang Techological University](http://ntu.edu.sg/)
+Assistant Professor <br/>
+[Department of Computer, Communication and Unmanned Technology](http://dccut.hannam.ac.kr/)
+[College of Engineering](http://int.hnu.kr/eng/sub.php?menuIdx=21)
+[Hannam University](http://int.hnu.kr/eng/), Daejeon, Korea
+
 * Ph.D. in [Computer Science](http://cs.pdx.edu/)
   at [Portland State University](http://www.pdx.edu/), Dec, 2014
 (advisor: [Tim Sheard](http://cs.pdx.edu/~sheard/))
@@ -14,11 +16,12 @@ Research Fellow (Office: cubicle RF2, Cyber Security Lab (CSL), NF4)<br/>
 
 ## Security and Process Calculi
 
-Joined [Alwen Tiu](http://www.ntu.edu.sg/home/atiu/)'s research group in 2016 summer, working on security protocols based on pi-calculi. Our recent result on the modal logic for open bismulation has been presented in CONCUR 2017 and awarded as the best paper:
+Joined [Alwen Tiu](http://www.ntu.edu.sg/home/atiu/)'s research group in 2016 summer, have been working on security protocols based on pi-calculi. Our recent result on the modal logic for open bismulation has been presented in CONCUR 2017 and awarded as the best paper:
  * Ki Yung Ahn, [Ross Horne](http://www.ntu.edu.sg/home/rhorne/) and [Alwen Tiu](http://www.ntu.edu.sg/home/atiu/). [*A Characterisation of Open Bisimilarity using an Intuitionistic Modal Logic.*](http://drops.dagstuhl.de/opus/volltexte/2017/7789/pdf/LIPIcs-CONCUR-2017-7.pdf) 28th International Conference on Concurrency Theory (CONCUR 2017). September 5-8, 2017. Berlin, Germany. Editors: Roland Meyer and Uwe Nestmann; [ISBN 978-3-95977-048-4; LIPICS Volume 85](http://drops.dagstuhl.de/opus/portals/lipics/index.php?semnr=16046); Article No. 7; pp. 7:1-7:15. Leibniz International Proceedings in Informatics. ISSN 1868-8969. DOI: [10.4230/LIPIcs.CONCUR.2017.7](http://dx.doi.org/10.4230/LIPIcs.CONCUR.2017.7)
    - [Slides](http://www.ntu.edu.sg/home/rhorne/concur17.pdf) presented by Ross at CONCUR 2017.
    - An [Extended Version](https://www.researchgate.net/publication/312550567) including Abella formalization of proofs and Bedwyr test of examples.
    - A certificate of the Best Paper Award <br /><a href="http://www.ntu.edu.sg/home/rhorne/bestpaper.jpg">![CONCUR2017BestPaper](http://kyagrd.github.io/images/concur2017bestpaper_small.jpg)</a>
+   - [A News Article](http://scse.ntu.edu.sg/NewsnEvents/Pages/News-Detail.aspx?news=6fe26396-875a-4172-b006-dc1c624f6aed) about the award from the homepage of School of Computer Science & Engineering @ NTU.
 
 
 ## [TIPER](http://kyagrd.github.io/tiper/)
