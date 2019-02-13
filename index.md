@@ -18,7 +18,7 @@ Office: 9-07-03 (engineering bldg. 7th floor room #03) <br />
  * [자기계발(Freshman Inquiry)](https://kyagrd.github.io/fresh2019spring)
  * [창업의이해(Understanding Entrepreneurship)](https://kyagrd.github.io/bs2019spring)
 
-[see more, including previous lectures]
+[see more, including previous lectures](https://kyagrd.github.io/teaching)
 
 # Research
 
