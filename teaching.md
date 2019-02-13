@@ -1,5 +1,3 @@
-[../](https://kyagrd.github.io/)
-
 # Teaching
 
 ## 2019 Spring
