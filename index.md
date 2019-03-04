@@ -13,7 +13,7 @@ Office: 9-07-03 (engineering bldg. 7th floor room #03) <br />
   at [KAIST](http://www.kaist.ac.kr/), Feb, 2002
 
 # Teaching (2019 Spring)
- * [객체지향프로그래밍(OOP)](https://kyagrd.github.io/oop2019spring)
+ * [객체지향프로그래밍(OOP)](https://kyagrd.github.io/oop2019Spring)
  * [인터넷응용및실습(HTML/CSS/JS)](https://kyagrd.github.io/htmlcss2019spring)
  * [자기계발(Freshman Inquiry)](https://kyagrd.github.io/fresh2019spring)
  * [창업의이해(Understanding Entrepreneurship)](https://kyagrd.github.io/bs2019spring)
