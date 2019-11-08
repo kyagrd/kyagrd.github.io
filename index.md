@@ -2,7 +2,7 @@
 
 Assistant Professor (`kya AT hnu DOT kr` +82 42 629 7492) <br />
 Office: 9-07-03 (engineering bldg. 7th floor room #03) <br />
-[Department of Computer, Communication and Unmanned Technology](http://dccut.hannam.ac.kr/) <br />
+[Department of Computer Engineering](http://ce.hannam.ac.kr/) <br />
 [College of Engineering](http://int.hnu.kr/eng/sub.php?menuIdx=21),
 [Hannam University](http://int.hnu.kr/eng/), Daejeon, Korea 34430
 
