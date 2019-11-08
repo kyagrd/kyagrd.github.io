@@ -12,12 +12,10 @@ Office: 9-07-03 (engineering bldg. 7th floor room #03) <br />
 * B.S. in [Computer Science](http://cs.kaist.ac.kr/),
   at [KAIST](http://www.kaist.ac.kr/), Feb, 2002
 
-# Teaching (2019 Spring)
- * [객체지향프로그래밍(OOP)](https://kyagrd.github.io/oop2019Spring)
- * [인터넷응용및실습(HTML/CSS/JS)](https://kyagrd.github.io/htmlcss2019spring)
- * [자기계발(Freshman Inquiry)](https://kyagrd.github.io/fresh2019spring)
- * [창업의이해(Understanding Entrepreneurship)](https://kyagrd.github.io/bs2019spring)
- * [오토마타이론(Automata Theory)](https://kyagrd.github.io/tc2019spring)
+# Teaching (2019 Fall)
+ * [프로그래밍언어 Programming Languages](https://github.com/hnu-pl/pl2019fall)
+ * [컴파일러 Compilers](https://github.com/hnu-pl/compiler2019fall) - Service Learning course
+ * [프로그래밍언어론 (Grad) Programming Lanuages](https://github.com/hnu-pl/grad-pl2019fall)
 
 [see more, including previous lectures](https://kyagrd.github.io/teaching)
 
